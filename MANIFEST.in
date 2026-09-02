@@ -1,0 +1,9 @@
+include README.md LICENSE CITATION.cff CHANGELOG.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md RELEASE.json
+recursive-include configs *.json *.yaml *.yml
+recursive-include docs *.md
+recursive-include examples *.py *.npz
+recursive-include results *.md *.csv *.json *.sha256
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include requirements *.txt
+recursive-include .github *.yml *.yaml *.md

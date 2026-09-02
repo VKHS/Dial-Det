@@ -1,0 +1,34 @@
+panel,M,selector,value,unit,provenance_status
+delta_ap,150,top_score,-0.15,AP points,reported_in_article
+delta_ap,200,top_score,-0.02,AP points,reported_in_article
+delta_ap,300,top_score,0,AP points,reported_in_article
+delta_ap,150,matched_local,-0.07,AP points,reported_in_article
+delta_ap,200,matched_local,0.08,AP points,reported_in_article
+delta_ap,300,matched_local,0.06,AP points,reported_in_article
+delta_ap,150,DPP,-0.04,AP points,reported_in_article
+delta_ap,200,DPP,0.12,AP points,reported_in_article
+delta_ap,300,DPP,0.1,AP points,reported_in_article
+delta_ap,150,DIAL,0.01,AP points,reported_in_article
+delta_ap,200,DIAL,0.25,AP points,reported_in_article
+delta_ap,300,DIAL,0.18,AP points,reported_in_article
+total_latency,150,top_NMS,15.6,ms,reported_in_article
+total_latency,200,top_NMS,18.2,ms,reported_in_article
+total_latency,300,top_NMS,24.1,ms,reported_in_article
+total_latency,150,matched_local,16.6,ms,reported_in_article
+total_latency,200,matched_local,19.0,ms,reported_in_article
+total_latency,300,matched_local,24.7,ms,reported_in_article
+total_latency,150,DPP,17.2,ms,reported_in_article
+total_latency,200,DPP,19.6,ms,reported_in_article
+total_latency,300,DPP,25.2,ms,reported_in_article
+total_latency,150,DIAL,16.4,ms,reported_in_article
+total_latency,200,DIAL,18.9,ms,reported_in_article
+total_latency,300,DIAL,24.9,ms,reported_in_article
+proposal_miss_UCB,150,matched_local,0.051,bounded loss UCB,reported_in_article
+proposal_miss_UCB,200,matched_local,0.043,bounded loss UCB,reported_in_article
+proposal_miss_UCB,300,matched_local,0.034,bounded loss UCB,reported_in_article
+proposal_miss_UCB,150,DPP,0.049,bounded loss UCB,reported_in_article
+proposal_miss_UCB,200,DPP,0.04,bounded loss UCB,reported_in_article
+proposal_miss_UCB,300,DPP,0.032,bounded loss UCB,reported_in_article
+proposal_miss_UCB,150,DIAL,0.044,bounded loss UCB,reported_in_article
+proposal_miss_UCB,200,DIAL,0.035,bounded loss UCB,reported_in_article
+proposal_miss_UCB,300,DIAL,0.029,bounded loss UCB,reported_in_article

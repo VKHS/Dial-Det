@@ -1,0 +1,18 @@
+result_id,paper_location,claim_family,dataset,stream,regime,rule,comparator,metric,value,comparator_value,delta,ci_low,ci_high,unit,seed,provenance_status,evidence_record_id,notes
+t10_lp_upper_validity,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,lp upper validity,100.0,,,,,percent,,reported_in_article,,"50,000 component-k pairs; 99.7% finite solve; max tolerance violation <1e-6"
+t10_finite_lp_solve,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,finite lp solve,99.7,,,,,percent,,reported_in_article,,"50,000 component-k pairs"
+t10_production_gap_median,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,production gap median,0.42,,,,,percent,,reported_in_article,,N=500
+t10_production_gap_p95,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,production gap p95,1.28,,,,,percent,,reported_in_article,,N=500
+t10_production_gap_p99,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,production gap p99,2.61,,,,,percent,,reported_in_article,,N=500
+t10_fallback_rate,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,fallback rate,3.8,,,,,percent,,reported_in_article,,"gap, LP, or exposure gate"
+t10_all_active_components_exact,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,all active components exact,92.4,,,,,percent,,reported_in_article,,same manifest
+t10_duplicate_edge_exposure,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,duplicate edge exposure,98.2,,,,,percent,,reported_in_article,,same manifest
+t10_complete_pipeline_Udup,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,complete pipeline Udup,0.0474,,,,,bounded loss UCB,,reported_in_article,,5000 calibration / 5000 utility
+t10_complete_pipeline_Ucov,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,complete pipeline Ucov,0.094,,,,,bounded loss UCB,,reported_in_article,,5000 calibration / 5000 utility
+t10_audit_Rdup,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,audit Rdup,0.0438,,,,,bounded loss,,reported_in_article,,detector and allocator unseen
+t10_audit_Rcov,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,audit Rcov,0.086,,,,,bounded loss,,reported_in_article,,detector and allocator unseen
+t10_complete_rules,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,complete rules,48,,,,,count,,reported_in_article,,two risks; 96 simultaneous tests
+t10_risk_definitions,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,risk definitions,2,,,,,count,,reported_in_article,,duplicate and coverage
+t10_training_seeds,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,training seeds,5,,,,,count,,reported_in_article,,all primary seed effects positive
+t10_same_evidence_contrasts,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,same evidence contrasts,7,,,,,count,,reported_in_article,,max-t simultaneous HCIs
+t10_headline_claim_families,Table X,optimization/calibration audit,multiple,multiple,audit,DIAL-Full-CBA,,headline claim families,4,,,,,count,,reported_in_article,,Holm-adjusted family decisions

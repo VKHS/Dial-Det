@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dial-det"
+version = "2.0.0"
+description = "Identity-aware, risk-calibrated global allocation for object detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "DIAL-Det authors"}]
+keywords = ["object detection", "global allocation", "submodular optimization", "risk calibration"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "numpy>=1.24,<3",
+  "scipy>=1.11,<2",
+]
+
+[project.optional-dependencies]
+train = ["torch>=2.1"]
+eval = ["pycocotools>=2.0.7"]
+plots = ["matplotlib>=3.7,<4"]
+config = ["PyYAML>=6,<7"]
+dev = [
+  "pytest>=7,<9",
+  "build>=1,<2",
+  "ruff>=0.6,<1",
+  "PyYAML>=6,<7",
+]
+
+[project.scripts]
+dial-det = "dial_det.cli:main"
+
+[project.urls]
+Repository = "https://github.com/VKHS/Dial-Det"
+Issues = "https://github.com/VKHS/Dial-Det/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools.package-data]
+dial_det = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["results/reported", "results/tables", "results/figure_data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

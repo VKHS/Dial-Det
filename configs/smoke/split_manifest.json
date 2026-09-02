@@ -1,0 +1,21 @@
+{
+  "audit_ids": [
+    "audit-001",
+    "audit-002"
+  ],
+  "calibration_ids": [
+    "cal-001",
+    "cal-002"
+  ],
+  "construction": "deterministic software-test split; not an article experiment",
+  "dataset": "synthetic-smoke",
+  "development_ids": [
+    "dev-001",
+    "dev-002"
+  ],
+  "utility_ids": [
+    "utility-001",
+    "utility-002"
+  ],
+  "version": "1"
+}

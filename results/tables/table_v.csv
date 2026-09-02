@@ -1,0 +1,55 @@
+result_id,paper_location,claim_family,dataset,stream,regime,rule,comparator,metric,value,comparator_value,delta,ci_low,ci_high,unit,seed,provenance_status,evidence_record_id,notes
+t5_yolov8n_ap,Table V,global allocation,COCO,YOLOv8n,standard,DIAL-Full,matched local,AP,39.62,39.0,0.62,0.38,0.86,points,,reported_in_article,,AP; broad headroom
+t5_yolov8n_uniquegtcov_delta,Table V,global allocation,COCO,YOLOv8n,standard,DIAL-Full,matched local,UniqueGT-Cov delta,1.5,,,,,percentage points,,reported_in_article,,broad headroom
+t5_yolov8n_udup_local,Table V,joint risk,COCO,YOLOv8n,standard,matched local,,Udup,0.049,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov8n_udup_dial,Table V,joint risk,COCO,YOLOv8n,standard,DIAL-Full,,Udup,0.046,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov8n_ucov_local,Table V,joint risk,COCO,YOLOv8n,standard,matched local,,Ucov,0.099,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov8n_ucov_dial,Table V,joint risk,COCO,YOLOv8n,standard,DIAL-Full,,Ucov,0.088,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov12l_ap,Table V,global allocation,COCO,YOLOv12-L,standard,DIAL-Full,matched local,AP,54.86,54.45,0.41,0.2,0.62,points,,reported_in_article,,AP; current dense
+t5_yolov12l_uniquegtcov_delta,Table V,global allocation,COCO,YOLOv12-L,standard,DIAL-Full,matched local,UniqueGT-Cov delta,0.8,,,,,percentage points,,reported_in_article,,current dense
+t5_yolov12l_udup_local,Table V,joint risk,COCO,YOLOv12-L,standard,matched local,,Udup,0.048,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov12l_udup_dial,Table V,joint risk,COCO,YOLOv12-L,standard,DIAL-Full,,Udup,0.045,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov12l_ucov_local,Table V,joint risk,COCO,YOLOv12-L,standard,matched local,,Ucov,0.097,,,,,bounded loss UCB,,reported_in_article,,
+t5_yolov12l_ucov_dial,Table V,joint risk,COCO,YOLOv12-L,standard,DIAL-Full,,Ucov,0.09,,,,,bounded loss UCB,,reported_in_article,,
+t5_dfinel_ap,Table V,global allocation,COCO,D-FINE-L,standard,DIAL-Full,matched local,AP,54.89,54.5,0.39,0.17,0.61,points,,reported_in_article,,AP; current query
+t5_dfinel_uniquegtcov_delta,Table V,global allocation,COCO,D-FINE-L,standard,DIAL-Full,matched local,UniqueGT-Cov delta,0.7,,,,,percentage points,,reported_in_article,,current query
+t5_dfinel_udup_local,Table V,joint risk,COCO,D-FINE-L,standard,matched local,,Udup,0.048,,,,,bounded loss UCB,,reported_in_article,,
+t5_dfinel_udup_dial,Table V,joint risk,COCO,D-FINE-L,standard,DIAL-Full,,Udup,0.045,,,,,bounded loss UCB,,reported_in_article,,
+t5_dfinel_ucov_local,Table V,joint risk,COCO,D-FINE-L,standard,matched local,,Ucov,0.096,,,,,bounded loss UCB,,reported_in_article,,
+t5_dfinel_ucov_dial,Table V,joint risk,COCO,D-FINE-L,standard,DIAL-Full,,Ucov,0.09,,,,,bounded loss UCB,,reported_in_article,,
+t5_deimdfinel_ap,Table V,global allocation,COCO,DEIM-D-FINE-L,standard,DIAL-Full,matched local,AP,55.48,55.13,0.35,0.14,0.56,points,,reported_in_article,,AP; 2025 matching frontier
+t5_deimdfinel_uniquegtcov_delta,Table V,global allocation,COCO,DEIM-D-FINE-L,standard,DIAL-Full,matched local,UniqueGT-Cov delta,0.6,,,,,percentage points,,reported_in_article,,2025 matching frontier
+t5_deimdfinel_udup_local,Table V,joint risk,COCO,DEIM-D-FINE-L,standard,matched local,,Udup,0.047,,,,,bounded loss UCB,,reported_in_article,,
+t5_deimdfinel_udup_dial,Table V,joint risk,COCO,DEIM-D-FINE-L,standard,DIAL-Full,,Udup,0.044,,,,,bounded loss UCB,,reported_in_article,,
+t5_deimdfinel_ucov_local,Table V,joint risk,COCO,DEIM-D-FINE-L,standard,matched local,,Ucov,0.095,,,,,bounded loss UCB,,reported_in_article,,
+t5_deimdfinel_ucov_dial,Table V,joint risk,COCO,DEIM-D-FINE-L,standard,DIAL-Full,,Ucov,0.089,,,,,bounded loss UCB,,reported_in_article,,
+t5_dinor50_ap,Table V,global allocation,COCO,DINO-R50,standard,DIAL-Full,matched local,AP,53.22,52.91,0.31,0.05,0.57,points,,reported_in_article,,AP; smallest residual headroom
+t5_dinor50_uniquegtcov_delta,Table V,global allocation,COCO,DINO-R50,standard,DIAL-Full,matched local,UniqueGT-Cov delta,0.5,,,,,percentage points,,reported_in_article,,smallest residual headroom
+t5_dinor50_udup_local,Table V,joint risk,COCO,DINO-R50,standard,matched local,,Udup,0.048,,,,,bounded loss UCB,,reported_in_article,,
+t5_dinor50_udup_dial,Table V,joint risk,COCO,DINO-R50,standard,DIAL-Full,,Udup,0.046,,,,,bounded loss UCB,,reported_in_article,,
+t5_dinor50_ucov_local,Table V,joint risk,COCO,DINO-R50,standard,matched local,,Ucov,0.096,,,,,bounded loss UCB,,reported_in_article,,
+t5_dinor50_ucov_dial,Table V,joint risk,COCO,DINO-R50,standard,DIAL-Full,,Ucov,0.092,,,,,bounded loss UCB,,reported_in_article,,
+t5_fasterr50_ap,Table V,global allocation,COCO,Faster R-CNN-R50,proposal-output,DIAL-Full,matched local,AP,41.01,40.63,0.38,0.14,0.62,points,,reported_in_article,,AP; proposal-output stream
+t5_fasterr50_uniquegtcov_delta,Table V,global allocation,COCO,Faster R-CNN-R50,proposal-output,DIAL-Full,matched local,UniqueGT-Cov delta,0.8,,,,,percentage points,,reported_in_article,,proposal-output stream
+t5_fasterr50_udup_local,Table V,joint risk,COCO,Faster R-CNN-R50,proposal-output,matched local,,Udup,0.049,,,,,bounded loss UCB,,reported_in_article,,
+t5_fasterr50_udup_dial,Table V,joint risk,COCO,Faster R-CNN-R50,proposal-output,DIAL-Full,,Udup,0.046,,,,,bounded loss UCB,,reported_in_article,,
+t5_fasterr50_ucov_local,Table V,joint risk,COCO,Faster R-CNN-R50,proposal-output,matched local,,Ucov,0.098,,,,,bounded loss UCB,,reported_in_article,,
+t5_fasterr50_ucov_dial,Table V,joint risk,COCO,Faster R-CNN-R50,proposal-output,DIAL-Full,,Ucov,0.09,,,,,bounded loss UCB,,reported_in_article,,
+t5_highpressure_ap,Table V,global allocation,COCO,YOLOv8n,top pressure quintile,DIAL-Full,matched local,AP,35.58,34.18,1.4,0.91,1.89,points,,reported_in_article,,AP; predeclared slice
+t5_highpressure_uniquegtcov_delta,Table V,global allocation,COCO,YOLOv8n,top pressure quintile,DIAL-Full,matched local,UniqueGT-Cov delta,1.6,,,,,percentage points,,reported_in_article,,predeclared slice
+t5_highpressure_udup_local,Table V,joint risk,COCO,YOLOv8n,top pressure quintile,matched local,,Udup,0.05,,,,,bounded loss UCB,,reported_in_article,,
+t5_highpressure_udup_dial,Table V,joint risk,COCO,YOLOv8n,top pressure quintile,DIAL-Full,,Udup,0.045,,,,,bounded loss UCB,,reported_in_article,,
+t5_highpressure_ucov_local,Table V,joint risk,COCO,YOLOv8n,top pressure quintile,matched local,,Ucov,0.1,,,,,bounded loss UCB,,reported_in_article,,
+t5_highpressure_ucov_dial,Table V,joint risk,COCO,YOLOv8n,top pressure quintile,DIAL-Full,,Ucov,0.084,,,,,bounded loss UCB,,reported_in_article,,
+t5_crowdhuman_ap,Table V,global allocation,CrowdHuman,R50 person stream,crowd,DIAL-Full,matched local,AP,88.23,87.35,0.88,0.39,1.37,points,,reported_in_article,,AP; primary crowd
+t5_crowdhuman_uniquegtcov_delta,Table V,global allocation,CrowdHuman,R50 person stream,crowd,DIAL-Full,matched local,UniqueGT-Cov delta,1.3,,,,,percentage points,,reported_in_article,,primary crowd
+t5_crowdhuman_udup_local,Table V,joint risk,CrowdHuman,R50 person stream,crowd,matched local,,Udup,0.049,,,,,bounded loss UCB,,reported_in_article,,
+t5_crowdhuman_udup_dial,Table V,joint risk,CrowdHuman,R50 person stream,crowd,DIAL-Full,,Udup,0.044,,,,,bounded loss UCB,,reported_in_article,,
+t5_crowdhuman_ucov_local,Table V,joint risk,CrowdHuman,R50 person stream,crowd,matched local,,Ucov,0.098,,,,,bounded loss UCB,,reported_in_article,,
+t5_crowdhuman_ucov_dial,Table V,joint risk,CrowdHuman,R50 person stream,crowd,DIAL-Full,,Ucov,0.083,,,,,bounded loss UCB,,reported_in_article,,
+t5_citypersons_mr2,Table V,global allocation,CityPersons,person stream,crowd,DIAL-Full,matched local,MR-2,11.07,11.9,-0.83,-1.32,-0.34,percentage points,,reported_in_article,,MR-2; miss-rate control
+t5_citypersons_uniquegtcov_delta,Table V,global allocation,CityPersons,person stream,crowd,DIAL-Full,matched local,UniqueGT-Cov delta,0.9,,,,,percentage points,,reported_in_article,,miss-rate control
+t5_citypersons_udup_local,Table V,joint risk,CityPersons,person stream,crowd,matched local,,Udup,0.049,,,,,bounded loss UCB,,reported_in_article,,
+t5_citypersons_udup_dial,Table V,joint risk,CityPersons,person stream,crowd,DIAL-Full,,Udup,0.045,,,,,bounded loss UCB,,reported_in_article,,
+t5_citypersons_ucov_local,Table V,joint risk,CityPersons,person stream,crowd,matched local,,Ucov,0.098,,,,,bounded loss UCB,,reported_in_article,,
+t5_citypersons_ucov_dial,Table V,joint risk,CityPersons,person stream,crowd,DIAL-Full,,Ucov,0.087,,,,,bounded loss UCB,,reported_in_article,,

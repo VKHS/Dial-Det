@@ -1,0 +1,76 @@
+{
+  "calibration": {
+    "alpha": 0.05,
+    "complete_rules": 48,
+    "images": 5000,
+    "risks": 2,
+    "utility_images": 5000
+  },
+  "candidate_interface": {
+    "dense_cache_cap": 1500,
+    "dense_graph_cap": 500,
+    "proposal_cache_cap": 1000,
+    "proposal_graph_cap": 500,
+    "query_cache_cap": 300,
+    "query_graph_cap": 300
+  },
+  "encoder": {
+    "Full": {
+      "heads": 8,
+      "hidden_dim": 256,
+      "layers": 3
+    },
+    "Lite": {
+      "heads": 4,
+      "hidden_dim": 192,
+      "layers": 2
+    },
+    "crop_descriptor_dimensions": 48,
+    "relation_dropout": 0.15
+  },
+  "exact_replication_fields_not_enumerated_in_article": [
+    "the 31 numerical lambda values",
+    "the four numerical uncertainty schedules",
+    "all loss coefficients",
+    "per-detector optimizer and learning-rate schedule",
+    "all image identifiers in development/calibration/utility/audit partitions",
+    "detector and evidence checkpoint SHA-256 values",
+    "hardware and software build identifiers"
+  ],
+  "objective": {
+    "eta": 0.2,
+    "lambda_grid_count": 31,
+    "uncertainty_schedule_count": 4
+  },
+  "proposal": {
+    "M": [
+      150,
+      200
+    ],
+    "beta_roi": 0.5
+  },
+  "purpose": "Machine-readable record of settings explicitly stated in the article. It is not a runnable complete rule.",
+  "relations": {
+    "IoU_threshold": 0.25,
+    "feature_neighbors": 16,
+    "spatial_neighbors": 16
+  },
+  "solver": {
+    "beam_width": 64,
+    "exact_component_threshold": 40,
+    "gap_threshold": 0.015
+  },
+  "status": "reported_in_article",
+  "timing": {
+    "batch_size": 1,
+    "precision": "FP16",
+    "repetitions": 5,
+    "warmup_iterations": 100
+  },
+  "training": {
+    "allocator_seed_count": 5,
+    "temperature_anneal_final_fraction": 0.4,
+    "temperature_end": 0.05,
+    "temperature_start": 1.0
+  }
+}

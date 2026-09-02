@@ -1,0 +1,6 @@
+selector,latency_ms,crowdhuman_ap,provenance_status
+IoU-aware calibration,1.35,87.48,reported_in_article
+CP-Cluster,2.6,87.6,reported_in_article
+OTP-NMS,2.45,87.7,reported_in_article
+Seq2Seq-NMS,3.4,87.75,reported_in_article
+DIAL,3.2,88.23,reported_in_article

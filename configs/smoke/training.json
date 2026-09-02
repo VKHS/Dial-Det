@@ -1,0 +1,25 @@
+{
+  "beta_allocation": 0.5,
+  "beta_edge": 1.0,
+  "beta_evidence": 0.5,
+  "beta_rank": 0.2,
+  "beta_uncertainty": 0.2,
+  "branch": "out",
+  "budget": 4,
+  "device": "cpu",
+  "dropout": 0.15,
+  "epochs": 2,
+  "eta": 0.2,
+  "hidden_dim": 64,
+  "lambda_redundancy": 1.0,
+  "learning_rate": 0.0003,
+  "number_of_heads": 4,
+  "number_of_layers": 2,
+  "relation_types": [
+    "geometry",
+    "spatial-neighbor",
+    "appearance"
+  ],
+  "seed": 17,
+  "weight_decay": 0.0001
+}

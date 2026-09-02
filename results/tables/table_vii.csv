@@ -1,0 +1,37 @@
+result_id,paper_location,claim_family,dataset,stream,regime,rule,comparator,metric,value,comparator_value,delta,ci_low,ci_high,unit,seed,provenance_status,evidence_record_id,notes
+t7_yolov12l_seed1,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,AP delta,0.34,,,,,points,1,reported_in_article,,
+t7_yolov12l_seed2,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,AP delta,0.46,,,,,points,2,reported_in_article,,
+t7_yolov12l_seed3,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,AP delta,0.39,,,,,points,3,reported_in_article,,
+t7_yolov12l_seed4,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,AP delta,0.44,,,,,points,4,reported_in_article,,
+t7_yolov12l_seed5,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,AP delta,0.42,,,,,points,5,reported_in_article,,
+t7_yolov12l_mean,Table VII,seed-aware inference,COCO,YOLOv12-L,primary,DIAL-Full minus local,,mean AP delta,0.41,,,0.2,0.62,points,,reported_in_article,,sd=0.05
+t7_dfinel_seed1,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.31,,,,,points,1,reported_in_article,,
+t7_dfinel_seed2,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.44,,,,,points,2,reported_in_article,,
+t7_dfinel_seed3,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.36,,,,,points,3,reported_in_article,,
+t7_dfinel_seed4,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.43,,,,,points,4,reported_in_article,,
+t7_dfinel_seed5,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.41,,,,,points,5,reported_in_article,,
+t7_dfinel_mean,Table VII,seed-aware inference,COCO,D-FINE-L,primary,DIAL-Full minus local,,mean AP delta,0.39,,,0.17,0.61,points,,reported_in_article,,sd=0.05
+t7_deimdfinel_seed1,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.28,,,,,points,1,reported_in_article,,
+t7_deimdfinel_seed2,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.4,,,,,points,2,reported_in_article,,
+t7_deimdfinel_seed3,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.33,,,,,points,3,reported_in_article,,
+t7_deimdfinel_seed4,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.39,,,,,points,4,reported_in_article,,
+t7_deimdfinel_seed5,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,AP delta,0.35,,,,,points,5,reported_in_article,,
+t7_deimdfinel_mean,Table VII,seed-aware inference,COCO,DEIM-D-FINE-L,primary,DIAL-Full minus local,,mean AP delta,0.35,,,0.14,0.56,points,,reported_in_article,,sd=0.05
+t7_dinor50_seed1,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,AP delta,0.2,,,,,points,1,reported_in_article,,
+t7_dinor50_seed2,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,AP delta,0.38,,,,,points,2,reported_in_article,,
+t7_dinor50_seed3,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,AP delta,0.29,,,,,points,3,reported_in_article,,
+t7_dinor50_seed4,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,AP delta,0.35,,,,,points,4,reported_in_article,,
+t7_dinor50_seed5,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,AP delta,0.33,,,,,points,5,reported_in_article,,
+t7_dinor50_mean,Table VII,seed-aware inference,COCO,DINO-R50,primary,DIAL-Full minus local,,mean AP delta,0.31,,,0.05,0.57,points,,reported_in_article,,sd=0.07
+t7_fasterrcnnr50_seed1,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,AP delta,0.3,,,,,points,1,reported_in_article,,
+t7_fasterrcnnr50_seed2,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,AP delta,0.42,,,,,points,2,reported_in_article,,
+t7_fasterrcnnr50_seed3,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,AP delta,0.33,,,,,points,3,reported_in_article,,
+t7_fasterrcnnr50_seed4,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,AP delta,0.46,,,,,points,4,reported_in_article,,
+t7_fasterrcnnr50_seed5,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,AP delta,0.39,,,,,points,5,reported_in_article,,
+t7_fasterrcnnr50_mean,Table VII,seed-aware inference,COCO,Faster R-CNN-R50,primary,DIAL-Full minus local,,mean AP delta,0.38,,,0.14,0.62,points,,reported_in_article,,sd=0.06
+t7_crowdhuman_seed1,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,AP delta,0.71,,,,,points,1,reported_in_article,,
+t7_crowdhuman_seed2,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,AP delta,0.96,,,,,points,2,reported_in_article,,
+t7_crowdhuman_seed3,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,AP delta,0.8,,,,,points,3,reported_in_article,,
+t7_crowdhuman_seed4,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,AP delta,1.02,,,,,points,4,reported_in_article,,
+t7_crowdhuman_seed5,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,AP delta,0.91,,,,,points,5,reported_in_article,,
+t7_crowdhuman_mean,Table VII,seed-aware inference,CrowdHuman,CrowdHuman,primary,DIAL-Full minus local,,mean AP delta,0.88,,,0.39,1.37,points,,reported_in_article,,sd=0.12

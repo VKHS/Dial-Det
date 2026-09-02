@@ -1,0 +1,84 @@
+{
+  "budget": {
+    "mode": "exact-K",
+    "value": 4
+  },
+  "contract": "DIAL-Out",
+  "fallback": {
+    "name": "registered synthetic score-topk fallback",
+    "type": "score-topk"
+  },
+  "fusion": {
+    "enabled": false,
+    "policy": "no-box-or-score-fusion"
+  },
+  "graph": {
+    "active_relations": [
+      "geometry",
+      "spatial-neighbor",
+      "appearance"
+    ],
+    "identity_threshold": 0.5,
+    "interaction_tolerance": 1e-12,
+    "minimum_support_exposure": 0.95,
+    "relation_types": [
+      "geometry",
+      "spatial-neighbor",
+      "appearance"
+    ]
+  },
+  "matching": {
+    "assignment": "many-to-one-maximum-IoU",
+    "class_compatible": true,
+    "ignore_policy": "exclude-ignored-ground-truth",
+    "iou_threshold": 0.5,
+    "tie_break": "smallest-ground-truth-index"
+  },
+  "notes": "Runnable deterministic software example; not an article experiment.",
+  "objective": {
+    "eta": 0.2,
+    "lambda_redundancy": 1.0
+  },
+  "ranking": {
+    "score": "detector-score",
+    "tie_break": "candidate-id"
+  },
+  "risks": {
+    "coverage": {
+      "target": 0.1
+    },
+    "duplicate": {
+      "target": 0.05
+    }
+  },
+  "rule_id": "smoke-dial-out-exact-v2",
+  "schema_version": "2.0",
+  "solver": {
+    "beam_width": 64,
+    "enumeration_threshold": 18,
+    "exact_component_threshold": 40,
+    "lp_tolerance": 1e-07,
+    "normalized_gap_threshold": 0.015,
+    "time_limit_seconds": 30.0
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "number_of_risks": 2,
+    "number_of_rules": 4,
+    "split_manifest_sha256": "84030e54aab580b1641bfc057c2a66a461ec0d2256fe1fc8638d7951e2e8401f"
+  },
+  "stream": {
+    "candidate_cap": 8,
+    "candidate_interface_id": "encoded-candidate-stream-v2",
+    "candidate_order": "detector-score-descending-then-candidate-id",
+    "detector_checkpoint_sha256": "8f3d26352b4c021cad08b647458074cfbfd21cc5824820ecdc913ac5491ac72b",
+    "detector_id": "synthetic-smoke-detector",
+    "evidence_checkpoint_sha256": "ba74d7c0f2ea6c9ddfde6540a06b8df005144ba7939fb79d2c1bcdae48502d03",
+    "feature_taps": [
+      "synthetic-node-feature"
+    ]
+  },
+  "value": {
+    "uncertainty_discount": 0.75
+  }
+}

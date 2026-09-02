@@ -1,0 +1,42 @@
+{
+  "datasets": [
+    "COCO",
+    "CrowdHuman",
+    "CityPersons",
+    "COCO-C"
+  ],
+  "detector_streams": [
+    "YOLOv8n",
+    "YOLOv12-L",
+    "D-FINE-L",
+    "DEIM-D-FINE-L",
+    "DINO-R50",
+    "Faster R-CNN-R50",
+    "Faster R-CNN-R101",
+    "Mask R-CNN-R50"
+  ],
+  "external_comparator_policy": "Use official implementations and convert their outputs to the common prediction schema. No substitute implementation in this repository is labeled with a competitor name.",
+  "external_recent_comparators": [
+    "CP-Cluster",
+    "Seq2Seq-NMS",
+    "OTP-NMS",
+    "IoU-aware calibration"
+  ],
+  "inference": [
+    "five retained allocator seeds",
+    "hierarchical seed-image intervals",
+    "max-t simultaneous intervals",
+    "Holm family correction",
+    "TOST with +/-0.10 AP band for equivalence"
+  ],
+  "same_stream_baselines": [
+    "native decoding",
+    "top score",
+    "NMS",
+    "matched learned local",
+    "DPP",
+    "greedy marginal gain on F",
+    "components plus DP with fixed evidence"
+  ],
+  "status": "reported_in_article"
+}

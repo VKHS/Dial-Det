@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated DIAL-Det article and this software release."
+title: "DIAL-Det: Standalone Research Implementation"
+type: software
+authors:
+  - name: "DIAL-Det authors"
+version: 2.0.0
+date-released: 2026-09-01
+repository-code: "https://github.com/VKHS/Dial-Det"
+license: MIT

@@ -1,0 +1,4 @@
+part,local_recall_percent,dial_recall_percent,provenance_status
+Head,93.2,93.8,reported_in_article
+Visible body,84.6,87.7,reported_in_article
+Full body,78.1,82.4,reported_in_article

@@ -1,0 +1,7 @@
+pressure,delta_ap,half_interval,label,provenance_status
+0.7,0.18,0.18,sparse,reported_in_article
+1.3,0.41,0.21,K=100,reported_in_article
+2.4,0.72,0.29,,reported_in_article
+3.8,1.16,0.37,,reported_in_article
+5.2,1.76,0.48,K=10,reported_in_article
+6.0,0.88,0.49,CrowdHuman,reported_in_article
