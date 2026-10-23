@@ -1,0 +1,9 @@
+Processing ./source
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: dialdet
+  Building wheel for dialdet (pyproject.toml): started
+  Building wheel for dialdet (pyproject.toml): finished with status 'done'
+  Created wheel for dialdet: filename=dialdet-1.0.0-py3-none-any.whl size=114208 sha256=4668ac6a80ac9f83dc872966de980c4993f4a5b93d31c8766610516b3de7cf6c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5t9kzjln/wheels/12/a5/60/c39ab9e4a6433de58a6086ce62d6d6805fc97f53536b15157b
+Successfully built dialdet

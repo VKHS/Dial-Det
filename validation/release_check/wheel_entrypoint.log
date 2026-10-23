@@ -1,0 +1,24 @@
+usage: dialdet [-h] [--version]
+               {self-test,smoke,train,pipeline,infer,evaluate,tune-local,export-coco,export-crowdhuman,export-citypersons,make-crossfit,merge-crossfit,check-certificate,risk-report,collect-risk,validate-manifest,verify-run,paired-statistics,study,compare-results,score-family}
+               ...
+
+DIAL-Det object detection: COCO, CrowdHuman and CityPersons
+
+positional arguments:
+  {self-test,smoke,train,pipeline,infer,evaluate,tune-local,export-coco,export-crowdhuman,export-citypersons,make-crossfit,merge-crossfit,check-certificate,risk-report,collect-risk,validate-manifest,verify-run,paired-statistics,study,compare-results,score-family}
+    validate-manifest   Inspect all candidate files and data roles before
+                        training
+    verify-run          Verify recorded output and optionally external input
+                        hashes
+    paired-statistics   Paired crossed image-seed bootstrap on complete held-
+                        out runs
+    study               Plan or execute a versioned multi-seed COCO cross-fit
+                        study
+    compare-results     Compare versioned reference values with verified local
+                        artifacts
+    score-family        Measure development utility for the registered
+                        24-policy family
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit

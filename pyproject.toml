@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dialdet"
+version = "1.0.0"
+description = "Identity-mass learning and checked allocation for budgeted object detection"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2"]
+
+[project.optional-dependencies]
+neural = ["torch>=2.1", "torchvision>=0.16", "Pillow>=9"]
+coco = ["pycocotools>=2.0.7"]
+
+[project.scripts]
+dialdet = "dialdet.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dialdet*"]

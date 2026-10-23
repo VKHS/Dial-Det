@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/megvii-model/CrowdDetection",
+  "commit": "9786f58869a55af3e0b51fc78f8638a825dae4a2",
+  "subdirectory": "evaluate/APMRToolkits",
+  "sha256": {
+    "__init__.py": "8926940ba4141d7aa0559b6e97be6387ebee14e3584a1b62811ab216d9ed4671",
+    "database.py": "64a6b6a9175b96e36f199ad6991dae50bf0a33be96a2d60aa6865a05a376106e",
+    "image.py": "1e88d5cb04abcfa56395c42ac5463cebac897d5bd0ada323dc942aa880d4cb42"
+  }
+}

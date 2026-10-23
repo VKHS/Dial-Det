@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-23T08:58:54.809035+00:00",
+  "crowdhuman_evaluator": "CROWDHUMAN_EVALUATOR.json",
+  "device": "cpu",
+  "machine": "x86_64",
+  "packages": {
+    "Pillow": "12.3.0",
+    "numpy": "2.5.2",
+    "pycocotools": "2.0.11",
+    "scipy": "1.17.0",
+    "setuptools": "78.1.0",
+    "torch": "2.5.1+cpu",
+    "torchvision": "0.20.1+cpu",
+    "wheel": "0.48.0"
+  },
+  "python": "3.12.14",
+  "system": "Linux"
+}

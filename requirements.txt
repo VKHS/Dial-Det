@@ -1,0 +1,5 @@
+# Core allocator, evidence model and training. Install a cluster-compatible
+# PyTorch/CUDA build separately; this file deliberately does not replace it.
+numpy>=1.26,<3
+scipy>=1.11,<2
+

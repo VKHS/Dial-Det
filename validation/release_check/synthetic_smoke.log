@@ -1,0 +1,7 @@
+{"stage": "evidence_training", "epoch": 1, "train": {"total": 1.1351147443056107, "quality": 0.5815802328288555, "pair": 0.5404884517192841, "mass": 0.130460602696985, "transitivity": 0.0}, "dev": {"total": 1.0506381392478943, "quality": 0.5474598705768585, "pair": 0.47282151132822037, "mass": 0.3035675883293152, "transitivity": 0.0}}
+{"stage": "evidence_training", "epoch": 2, "train": {"total": 0.9741104319691658, "quality": 0.5013588294386864, "pair": 0.4500446021556854, "mass": 0.22706989757716656, "transitivity": 0.0}, "dev": {"total": 0.9076244384050369, "quality": 0.4777222126722336, "pair": 0.414562851190567, "mass": 0.15339389443397522, "transitivity": 0.0}}
+[INFER] 1/4 image=synthetic-audit-0000 candidates=7
+[INFER] 2/4 image=synthetic-audit-0001 candidates=7
+[INFER] 3/4 image=synthetic-audit-0002 candidates=7
+[INFER] 4/4 image=synthetic-audit-0003 candidates=7
+{"command": "smoke", "status": "completed", "output": "/tmp/dialdet-release-pyvd8i4n/smoke"}

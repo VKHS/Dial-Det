@@ -1,0 +1,30 @@
+{
+  "implementation_version": "1.0.0",
+  "project": "DIAL-Det",
+  "paper_title": "DIAL-Det: Learning Identity Mass for Budgeted Detection Allocation",
+  "sources": [
+    {
+      "filename": "Dial_Det_ICASSP_23(1).pdf",
+      "role": "main paper",
+      "bytes": 1548312,
+      "sha256": "c1aead65925c5bf58585b7f529e2e0db9a11937e4e1d59c0afd10ff4b40cd1e5"
+    },
+    {
+      "filename": "Dial_Det_ICASSP_23 (1).pdf",
+      "role": "supplementary appendices",
+      "bytes": 353006,
+      "sha256": "33875dde6b731826b4d0964fb458826d3e99d3f9d866687eaa2d08111db7bf56"
+    }
+  ],
+  "scientific_specification": "The main paper and supplementary appendices define the objective, evidence model, allocation algorithm and experimental protocols.",
+  "implementation_decisions": "IMPLEMENTATION_NOTES.md documents concrete model, numerical and workflow choices.",
+  "datasets": [
+    "COCO",
+    "CrowdHuman",
+    "CityPersons"
+  ],
+  "experiment_workflow": "docs/COCO_STUDY.md",
+  "implementation_scope": "docs/IMPLEMENTATION_STATUS.md",
+  "validation_report": "VALIDATION_REPORT.md",
+  "benchmark_results_bundled": false
+}

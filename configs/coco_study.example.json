@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_manifest": "../data/coco_frozen/manifest.json",
+  "coco_annotations": "../data/coco/annotations/instances_val2017.json",
+  "seeds": [1, 2, 3, 4, 5],
+  "split_seed": 20261022,
+  "dev_fraction": 0.2,
+  "epochs": 30,
+  "budgets": [10, 25, 50, 100, 200],
+  "device": "cuda",
+  "config": "paper_defaults.json",
+  "comparisons": [
+    {
+      "method_a": "dialdet",
+      "method_b": "local",
+      "budget": 100,
+      "metric": "AP",
+      "subset": "all",
+      "repeats": 2000,
+      "seed": 1
+    },
+    {
+      "method_a": "dialdet",
+      "method_b": "local",
+      "budget": 100,
+      "metric": "mean_image_shortfall",
+      "subset": "all",
+      "repeats": 2000,
+      "seed": 1
+    }
+  ]
+}

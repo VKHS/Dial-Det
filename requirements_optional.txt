@@ -1,0 +1,5 @@
+# Optional official COCO metrics. torchvision must match the existing torch
+# installation; install its corresponding build separately.
+pycocotools>=2.0.7,<3
+Pillow>=10
+

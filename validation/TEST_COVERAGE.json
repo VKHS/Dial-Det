@@ -1,0 +1,23 @@
+{
+  "package_version": "1.0.0",
+  "source": "release_check/unittest.log",
+  "tests_by_module": {
+    "test_artifacts_results": 8,
+    "test_audit_bound": 6,
+    "test_crowdhuman": 11,
+    "test_data_metrics": 19,
+    "test_detection_datasets": 10,
+    "test_detection_workflow": 6,
+    "test_evaluation": 8,
+    "test_evidence": 9,
+    "test_integration": 4,
+    "test_pipeline_integrity": 1,
+    "test_provenance": 8,
+    "test_release": 19,
+    "test_risk_provenance": 10,
+    "test_solver": 12,
+    "test_statistics_workflow": 8,
+    "test_study": 13
+  },
+  "total": 152
+}

@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-index",
+        "--no-deps",
+        "--no-build-isolation",
+        "--wheel-dir",
+        "/tmp/dialdet-wheel-we53axan/wheels",
+        "/tmp/dialdet-wheel-we53axan/source"
+      ],
+      "log": "wheel_build.log",
+      "name": "wheel_build",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.1178600319999532,
+      "timed_out": false
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "--no-compile",
+        "--target",
+        "/tmp/dialdet-wheel-we53axan/installed",
+        "/tmp/dialdet-wheel-we53axan/wheels/dialdet-1.0.0-py3-none-any.whl"
+      ],
+      "log": "wheel_install.log",
+      "name": "wheel_install",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.3149582679998275,
+      "timed_out": false
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-c",
+        "import importlib, json\nfrom pathlib import Path\nfrom importlib.metadata import distribution\ntarget = Path('/tmp/dialdet-wheel-we53axan/installed').resolve()\nmodules = ['dialdet', 'dialdet.artifacts', 'dialdet.audit_bound', 'dialdet.baselines', 'dialdet.certificate', 'dialdet.cli', 'dialdet.crossfit', 'dialdet.crowdhuman', 'dialdet.data', 'dialdet.demo', 'dialdet.detection_datasets', 'dialdet.development', 'dialdet.evidence', 'dialdet.exporter', 'dialdet.metrics', 'dialdet.objective', 'dialdet.provenance', 'dialdet.results', 'dialdet.risk', 'dialdet.risk_runtime', 'dialdet.solver', 'dialdet.statistical_workflow', 'dialdet.statistics', 'dialdet.study', 'dialdet.training']\nlocations = {}\nfor name in modules:\n    module = importlib.import_module(name)\n    location = Path(module.__file__).resolve()\n    assert target in location.parents, (name, str(location))\n    locations[name] = str(location.relative_to(target))\ndist = distribution('dialdet')\nassert any(e.group == 'console_scripts' and e.name == 'dialdet' and e.value == 'dialdet.cli:main' for e in dist.entry_points)\nprint(json.dumps({'version': dist.version, 'imported_modules': locations}, sort_keys=True))"
+      ],
+      "log": "wheel_imports.log",
+      "name": "wheel_imports",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.3683451160000004,
+      "timed_out": false
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/tmp/dialdet-wheel-we53axan/installed/bin/dialdet",
+        "--help"
+      ],
+      "log": "wheel_entrypoint.log",
+      "name": "wheel_entrypoint",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.16450207499997305,
+      "timed_out": false
+    }
+  ],
+  "dependency_resolution": "disabled; existing environment only",
+  "errors": [],
+  "valid": true,
+  "wheel": "wheels/dialdet-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "4668ac6a80ac9f83dc872966de980c4993f4a5b93d31c8766610516b3de7cf6c"
+}

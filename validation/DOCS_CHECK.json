@@ -1,0 +1,574 @@
+{
+  "checked_at_utc": "2026-10-23T09:00:40.228303+00:00",
+  "errors": [],
+  "github_actions_executed": false,
+  "links": [
+    {
+      "source": "IMPLEMENTATION_NOTES.md",
+      "target": "docs/EXPERIMENTS.md"
+    },
+    {
+      "source": "IMPLEMENTATION_NOTES.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "IMPLEMENTATION_NOTES.md",
+      "target": "SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "IMPLEMENTATION_NOTES.md",
+      "target": "docs/IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "IMPLEMENTATION_NOTES.md",
+      "target": "VALIDATION_REPORT.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/METHOD.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/REVIEWER_GUIDE.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/ABLATIONS.md"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "target": "docs/GITHUB_SETUP.md"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/TEST_REPORT.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/TEST_LOG.txt"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/release_check/RELEASE_CHECK.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/TEST_COVERAGE.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/release_check/SMOKE_REPORT.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/WHEEL_CHECK.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/release_check/TESTED_PACKAGE_SHA256.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/SOURCE_FINGERPRINT.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/DOCS_CHECK.json"
+    },
+    {
+      "source": "VALIDATION_REPORT.md",
+      "target": "validation/ENVIRONMENT.json"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/METHOD.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/REVIEWER_GUIDE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "README.md",
+      "target": "VALIDATION_REPORT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "README_ARRHENIUS.txt"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/METHOD.md"
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "README.md",
+      "target": "IMPLEMENTATION_NOTES.md#2-frozen-candidate-contract"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/DATASETS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "VALIDATION_REPORT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "configs/coco_study.example.json"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/EXPERIMENTS.md#complete-policy-risk-workflow"
+    },
+    {
+      "source": "README.md",
+      "target": "README_ARRHENIUS.txt"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/COCO_STUDY.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/EXPERIMENTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/REVIEWER_GUIDE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/IMPLEMENTATION_STATUS.md#method-to-code-to-tests"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/ABLATIONS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/GITHUB_SETUP.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "../VALIDATION_REPORT.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "../SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "../README.md#quick-local-verification"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "METHOD.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "IMPLEMENTATION_STATUS.md#method-to-code-to-tests"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "../README_ARRHENIUS.txt"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "ABLATIONS.md"
+    },
+    {
+      "source": "docs/REVIEWER_GUIDE.md",
+      "target": "EXPERIMENTS.md"
+    },
+    {
+      "source": "docs/COCO_STUDY.md",
+      "target": "../configs/coco_study.example.json"
+    },
+    {
+      "source": "docs/DATASETS.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "../SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "../IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "IMPLEMENTATION_STATUS.md#explicit-reference-choices"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "../IMPLEMENTATION_NOTES.md#5-search-and-certificates"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/METHOD.md",
+      "target": "EXPERIMENTS.md#paired-statistics-specification"
+    },
+    {
+      "source": "docs/EXPERIMENTS.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/EXPERIMENTS.md",
+      "target": "DATASETS.md"
+    },
+    {
+      "source": "docs/EXPERIMENTS.md",
+      "target": "../IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "source": "docs/EXPERIMENTS.md",
+      "target": "../README_ARRHENIUS.txt"
+    },
+    {
+      "source": "docs/EXPERIMENTS.md",
+      "target": "../VALIDATION_REPORT.md"
+    },
+    {
+      "source": "docs/ABLATIONS.md",
+      "target": "../IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "source": "docs/ABLATIONS.md",
+      "target": "COCO_STUDY.md"
+    },
+    {
+      "source": "docs/ABLATIONS.md",
+      "target": "IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "../README_ARRHENIUS.txt"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "../.github/workflows/ci.yml"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "REVIEWER_GUIDE.md"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "EXPERIMENTS.md"
+    },
+    {
+      "source": "docs/GITHUB_SETUP.md",
+      "target": "../VALIDATION_REPORT.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../VALIDATION_REPORT.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "METHOD.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../SOURCE_PROVENANCE.json"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/data.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/exporter.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/detection_datasets.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_data_metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_detection_datasets.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_evidence.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/evidence.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_evidence.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/evidence.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/training.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_evidence.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_detection_workflow.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_pipeline_integrity.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/objective.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_solver.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/solver.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/certificate.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_solver.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/audit_bound.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_data_metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_audit_bound.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/crowdhuman.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/cli.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_integration.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_crowdhuman.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_evaluation.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_detection_workflow.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/data.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/crossfit.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_data_metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_integration.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/risk_runtime.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/development.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/risk.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_risk_provenance.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_integration.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_data_metrics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/statistical_workflow.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/statistics.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_statistics_workflow.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/provenance.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/artifacts.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/results.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_provenance.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_artifacts_results.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_pipeline_integrity.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../dialdet/study.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_study.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../scripts/release_check.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../tests/test_release.py"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "ABLATIONS.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "REVIEWER_GUIDE.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "EXPERIMENTS.md"
+    },
+    {
+      "source": "docs/IMPLEMENTATION_STATUS.md",
+      "target": "../VALIDATION_REPORT.md"
+    }
+  ],
+  "publication_wording_check": "passed",
+  "relative_links_checked": 140,
+  "valid": true,
+  "yaml_files_parsed": [
+    ".github/workflows/ci.yml",
+    ".github/ISSUE_TEMPLATE/bug_report.yml"
+  ]
+}
